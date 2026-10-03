@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            align-items: center;
+            background-color: #f4f4f4;
+            height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .product{
+            width: 250px;
+            height: 300px;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            margin-bottom: 10px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 4px 4px 8px rgba(29, 28, 28, 0.834);
+        }
+        .product:hover{
+            background-color: #f70505;
+            transition: transform 0.2s;
+            transform:scale(1.05)
+
+        }
+        .product img{
+           height: 150px;
+           width: 100%;
+           object-fit: cover;   
+           border-radius: 10px;
+        }
+        .product button{
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 12px;
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+    <div class="product">
+        <img src="https://images.pexels.com/photos/3081173/pexels-photo-3081173.jpeg" alt="Product Image" height="200px" width="200px"  >
+        <h2>headphones</h2>
+        <p>Rs=1000</p>
+        <button>Buy Now</button>
+    </div>
+    <div class="product">
+        <img src="https://images.pexels.com/photos/6893890/pexels-photo-6893890.jpeg" alt="Product Image" height="200px" width="200px"  >
+        <h2>smartphone</h2>
+        <p>Rs=20000</p>
+        <button>Buy Now</button>
+    </div>
+    <div class="product">
+        <img src="https://images.pexels.com/photos/9409819/pexels-photo-9409819.jpeg" alt="Product Image" height="200px" width="200px"  >
+        <h2>laptop</h2>
+        <p>Rs=50000</p>
+        <button>Buy Now</button>
+    </div>
+    <div class="product">
+        <img src="https://images.pexels.com/photos/15307795/pexels-photo-15307795.jpeg" alt="Product Image" height="200px" width="200px"  >
+        <h2>tablet</h2>
+        <p>Rs=15000</p>
+        <button>Buy Now</button>
+    </div>
+</body>
+</html>
